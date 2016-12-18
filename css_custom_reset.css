@@ -1,5 +1,5 @@
-html, body, header, img, nav, ul, li, a, aside, h1, h2, section,
-figure, p, figcaption, ol, form, label, input, select, option, textarea, footer {
+html, body, main, header, img, nav, ul, li, a, aside, h1, h2, section,
+figure, p, figcaption, ol, form, label, footer {
   margin: 0;
   padding: 0;
   border: 0;
