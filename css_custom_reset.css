@@ -1,0 +1,15 @@
+html, body, header, img, nav, ul, li, a, aside, h1, h2, section,
+figure, p, figcaption, ol, form, label, input, select, option, textarea, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  background-color: transparent;
+  vertical-align: baseline;
+}
+
+input[type="radio"], select, input[type="submit"] {
+  cursor: pointer;
+  outline: none;
+}
