@@ -13,3 +13,7 @@ input[type="radio"], select, input[type="submit"] {
   cursor: pointer;
   outline: none;
 }
+
+img {
+  width: 100%;
+}
