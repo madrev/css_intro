@@ -25,4 +25,34 @@
   [class*='col-'] {
     width: 90%;
   }
+
+  .hamburger-dropdown {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .hamburger-dropdown:hover ul {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100px;
+    background-color: grey;
+    list-style: none;
+    line-height: 20px;
+  }
+
+  .hamburger-dropdown ul li {
+    padding: 20px 0px;
+  }
+
+  .hamburger-dropdown ul li:hover {
+    text-decoration: underline;
+  }
 }
